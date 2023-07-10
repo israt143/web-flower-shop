@@ -8,25 +8,26 @@ body {
 
 /*nav related styles*/
 
-.banner{
+.banner {
 
     justify-content: space-between;
     display: flex;
 
 }
-.banner-content{
-    padding-left:50px ;
 
-   
+.banner-content {
+    padding-left: 50px;
+
+
 }
 
 .banner-title {
-    
+
     color: #272727;
     color: #272727;
     font-size: 50px;
     font-weight: 500px;
-    margin-bottom:5px ;
+    margin-bottom: 5px;
 }
 
 .banner-pera {
@@ -34,8 +35,8 @@ body {
     font-size: 15px;
     font-weight: 200;
     line-height: 20px;
-    margin-top:20px;
-    margin-bottom:25px ;
+    margin-top: 20px;
+    margin-bottom: 25px;
 
 }
 
@@ -55,15 +56,64 @@ body {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     height: 500px;
-    padding-top:200px ;
-    padding-bottom:0px ;
-    
+    padding-top: 200px;
+    padding-bottom: 0px;
+
 }
-.banner-profile-pic{
-    margin-top:-100px ;
-    padding-left:200px ;
+
+.banner-profile-pic {
+    margin-top: -100px;
+    padding-left: 200px;
 }
 
 /* section related styles*/
+.section-contant {
+    text-align: center;
+    padding: 50px;
+}  
 
+.section-img{
+    padding-left:150px ;
+    padding-right:150px;
+    padding-top:5px ; 
+   
+}
  
+.pink {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 200px;
+    height: 300px;
+    padding-top:70px ;
+    padding-left:50px ;
+    padding-right:50px ;
+    margin-right:20px ;
+}
+
+.red {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 200px;
+    height: 300px;
+    padding-top:70px ;
+    padding-left:50px ;
+    padding-right:50px ;
+    margin-right:20px ;
+}
+
+.yellow {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 200px;
+    height: 300px;
+    padding-top:70px ;
+    padding-left:50px ;
+    padding-right:50px ;
+    margin-right:20px ;
+}
+section > ul{
+    display: flex;
+}
+section > li{
+    list-style: none;
+}
