@@ -280,7 +280,7 @@ footer {
 
     font-size: 40px;
     font-weight: 600px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 
 }
 
@@ -295,4 +295,69 @@ footer {
     color: rgba(255, 255, 255, 0.40);
     font-size: 12px;
     font-weight: 300px;
+}
+
+/*message related*/
+
+.contect {
+    padding-left: 180px;
+    margin-right: 50px;
+    padding-top: 80px;
+    text-align: center;
+
+}
+
+.contect-title {
+
+    font-size: 48px;
+    font-weight: 800px;
+    color: #111010;
+    margin-bottom:20px;
+}
+
+.contect-pera {
+    font-size: 15px;
+    font-weight: 300px;
+    line-height: 20px;
+    color: #272727;
+}
+ 
+
+
+.message-list {
+    background-color: #f6aaba;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    min-height: 500px;
+    width:100%;
+
+}
+
+.message {
+
+    display: flex;
+}
+
+.footer-column{
+    padding-right: 50px;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+}
+.message-title{
+    font-size: 48px;
+    font-weight: 800px;
+    color: #111010;
+    margin-bottom:20px;
+}
+.footer-option input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom:5px ;
+    padding:15px 30px ;
+
+
+}
+#footer-btn{
+    color: white;
 }
