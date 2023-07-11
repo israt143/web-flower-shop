@@ -16,7 +16,7 @@ body {
 }
 
 .banner-content {
-    padding-left: 50px;
+    padding-left: 100px;
 
 
 }
@@ -63,6 +63,7 @@ body {
 .banner-profile-pic {
     margin-top: -100px;
     padding-left: 200px;
+    padding-right: 100px;
 }
 
 /* section related styles*/
@@ -217,8 +218,12 @@ body {
 
 .insta-img {
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
+    padding-left: 70px;
+    padding-right: 50px;
+
+
 
 
 }
@@ -247,16 +252,68 @@ body {
 
 
 /*main related*/
-/*
-main {
-    background-image: url('../Flower Asset/Rectangle 9.png');
-    border-radius: 5px;
-   
-   
-}
-.main{
+.main-container {
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
     text-align: center;
-}*/
+    margin: 50px;
+
+}
+
+
+.input-btn-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.input-btn-item button {
+    margin-left: 16px;
+}
+
+.input-btn-item input {
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 500px;
+    height: 25px;
+
+
+}
+
+.main-container h2{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom:5px;
+    
+    
+}
+
+
+.main-container p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top:5px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*footer related*/
@@ -312,7 +369,7 @@ footer {
     font-size: 48px;
     font-weight: 800px;
     color: #111010;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .contect-pera {
@@ -321,7 +378,16 @@ footer {
     line-height: 20px;
     color: #272727;
 }
- 
+
+.contect-img-pera {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
 
 
 .message-list {
@@ -329,7 +395,7 @@ footer {
     margin-bottom: 50px;
     margin-top: 50px;
     min-height: 500px;
-    width:100%;
+    width: 100%;
 
 }
 
@@ -338,26 +404,31 @@ footer {
     display: flex;
 }
 
-.footer-column{
+.footer-column {
     padding-right: 50px;
     padding-left: 200px;
     padding-top: 50px;
     padding-bottom: 10px;
 
 }
-.message-title{
+
+.message-title {
     font-size: 48px;
     font-weight: 800px;
     color: #111010;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-.footer-option input[type="text"],input[type="email"],textarea{
+
+.footer-option input[type="text"],
+input[type="email"],
+textarea {
     display: block;
-    margin-bottom:5px ;
-    padding:15px 30px ;
+    margin-bottom: 5px;
+    padding: 15px 30px;
 
 
 }
-#footer-btn{
+
+#footer-btn {
     color: white;
 }
